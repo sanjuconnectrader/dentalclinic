@@ -19,24 +19,24 @@ const Chevron = ({ open }) => (
 
 const faqs = [
   {
-    q: "How often should I visit the dentist?",
-    a: "Most patients benefit from a checkup and cleaning every 6 months. Your dentist may recommend a different interval based on your oral health, gum condition, orthodontic treatment, or medical history.",
+    q: "How often should I have a dental checkup?",
+    a: "Most people do well with a checkup and professional cleaning every 6 months. If you’re managing gum disease, wearing braces, or have a higher risk of cavities, your dentist may recommend more frequent visits to protect your oral health.",
   },
   {
     q: "What should I do in a dental emergency?",
-    a: "Call the clinic immediately. For a knocked-out tooth, gently rinse and try to place it back in the socket or keep it in milk. For severe pain or swelling, apply a cold compress and seek urgent care.",
+    a: "Call the clinic right away. For a knocked-out tooth, gently rinse and place it back in the socket if possible, or keep it moist in milk or saline—seek urgent care within 60 minutes. For severe pain, swelling, or bleeding, apply a cold compress and contact us immediately.",
   },
   {
-    q: "Do you offer services for kids?",
-    a: "Yes. We provide gentle pediatric care, preventive sealants, fluoride treatments, and education to help kids build healthy habits in a comfortable setting.",
+    q: "Do you treat children?",
+    a: "Yes. We provide gentle pediatric care, including exams and cleanings, fluoride treatments, sealants, and habit counseling. Our team focuses on positive, friendly visits that help kids build healthy dental routines for life.",
   },
   {
     q: "What are my options for replacing missing teeth?",
-    a: "Common options include dental implants, bridges, and dentures. Your dentist will evaluate bone health, adjacent teeth, and your goals to recommend the best solution.",
+    a: "Common solutions include dental implants, bridges, and custom dentures. We’ll evaluate your bone support, bite, and smile goals to recommend a stable, natural-looking option that fits your lifestyle and budget.",
   },
   {
-    q: "Is teeth whitening safe?",
-    a: "Professional whitening under dental supervision is safe for most people. We assess your enamel and gums first and choose an appropriate treatment strength to minimize sensitivity.",
+    q: "Is professional teeth whitening safe?",
+    a: "When supervised by a dentist, whitening is safe for most patients. We first check for cavities and gum sensitivity, then select the right strength to brighten your smile while minimizing temporary sensitivity.",
   },
 ];
 
@@ -57,12 +57,12 @@ export default function FAQSection() {
         {/* LEFT: Section heading */}
         <div className="relative">
           <p className="text-sm font-semibold text-[rgb(66,133,244)]">
-            Everything You Need to Know
+            Patient FAQs
           </p>
           <h2 className="mt-3 text-4xl leading-[1.05] font-extrabold text-[rgb(7,31,68)] sm:text-5xl">
-            Frequently Asked
+            Your Dental Questions
             <br />
-            Questions
+            Answered
           </h2>
         </div>
 
@@ -99,9 +99,7 @@ export default function FAQSection() {
                     }`}
                   >
                     <div className="overflow-hidden">
-                      <p className="pb-6 text-slate-600">
-                        {item.a}
-                      </p>
+                      <p className="pb-6 text-slate-600">{item.a}</p>
                     </div>
                   </div>
                 </li>

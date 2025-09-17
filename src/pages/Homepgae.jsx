@@ -6,6 +6,7 @@ import DentalCareSection from '../components/Home/DentalCareSection'
 import ServicesSection from '../components/Home/ServicesSection'
 import FAQSection from '../components/Home/FAQSection'
 import ClinicFacilitySection from '../components/Home/ClinicFacilitySection'
+import Footer from '../components/Footer/Footer'
 
 const Homepgae = () => {
     return (
@@ -17,6 +18,7 @@ const Homepgae = () => {
             <DentalCareSection />
             <ClinicFacilitySection />
             <FAQSection />
+           <Footer/>
 
 
 
